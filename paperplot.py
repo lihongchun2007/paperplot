@@ -20,7 +20,7 @@ _params = {'text.usetex' : True,
           'ytick.minor.size': 1,
           'xtick.major.size': 2,
           'ytick.major.size': 2,
-          'figure.autolayout':True,
+          #'figure.autolayout':True,
           'savefig.dpi': 300,
           'savefig.bbox': 'tight',
           'savefig.pad_inches': 0.01
