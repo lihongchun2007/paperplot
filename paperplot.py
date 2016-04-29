@@ -1,15 +1,18 @@
 import matplotlib.pyplot as plt
+import matplotlib
 
 _params = {'text.usetex' : True,
-          'text.latex.preamble':[r"\usepackage{lmodern}", r"\usepackage{amsmath}"],
+          'text.latex.preamble':[r"\usepackage{times}", r"\usepackage{amsmath}"],
           'font.size' : 8,
-          'font.family' : 'lmodern',
+          'font.family' : 'times',
           'text.latex.unicode': True,
           'lines.linewidth': 0.5,
           'axes.titlesize': 'large',
           'axes.linewidth': 0.3,
           'xtick.major.width': 0.25,
           'ytick.major.width': 0.25,
+          'xtick.direction': 'in', 
+          'ytick.direction': 'in', 
           'grid.linewidth': 0.125,
           'grid.linestyle': ':',
           'grid.color': [0.5, 0.5, 0.5],
@@ -20,7 +23,6 @@ _params = {'text.usetex' : True,
           'ytick.minor.size': 1,
           'xtick.major.size': 2,
           'ytick.major.size': 2,
-          #'figure.autolayout':True,
           'savefig.dpi': 300,
           'savefig.bbox': 'tight',
           'savefig.pad_inches': 0.01
